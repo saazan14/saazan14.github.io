@@ -1,19 +1,7 @@
-/*.nav-link, .navbar{
-	padding: 0rem 1rem;
-}
-div.logoimg{
-	background-image: url("img/rugsaof.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-origin: content-box;
-	height: 3em;
-
-}*/
-
 *{transition: none;}
 p{text-align: justify;}
 img{max-width: 100%;}
-
+body{max-width: 768px; margin-right: auto; margin-left: auto;}
 .navbar{box-shadow: none; padding: 1em 1em;}
 
 

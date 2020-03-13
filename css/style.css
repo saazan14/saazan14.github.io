@@ -135,7 +135,16 @@ img.card-img-top .album{
   border: 30px solid teal;
   display:block; margin-right:auto; margin-left:auto;
 }
-
+img.frame{
+  display: block; 
+  width: 100px;
+  margin: 0px auto; 
+  border:5px solid #fff; 
+}
+img.bg-img{
+  padding: 10px 0px;
+}
 p.intro{line-height: 0.5em;}
 p.intro a:link, a{color: #000;}
 a:hover{color: #000; text-decoration: underline;}
+span.meta{display:block; background: #ccc;}

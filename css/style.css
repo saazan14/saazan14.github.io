@@ -4,15 +4,6 @@ img{max-width: 100%;}
 body{max-width: 768px; margin-right: auto; margin-left: auto;}
 .navbar{box-shadow: none; padding: 1em 0em;}
 
-.dropdown-menu{
-	border-radius: 0px; 
-	padding: 0px;
-	margin: 0px;
-}
-.navbar .dropdown-menu a {
-    padding: 5px 10px;}
-
-
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
     color: #000 !important;
     }
@@ -22,15 +13,11 @@ body{max-width: 768px; margin-right: auto; margin-left: auto;}
 .navbar-dark .navbar-brand, .navbar-dark .navbar-brand:focus{
     color: teal; font-size: x-large; font-weight: bold; }
 
-/*.navbar.navbar-dark .breadcrumb .nav-item.active > .nav-link:hover{
-    color: teal !important;
-    }*/
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link{transition: none;}
 .navbar.navbar-dark form .md-form input {
     border-bottom: 1px solid #000;
 }
 .navbar-dark .navbar-brand:hover{color: teal !important;}
-
 
 .navbar.navbar-dark form .md-form .form-control {
     color: teal;
@@ -52,19 +39,8 @@ li.nav-item{width: 80px; text-align: center;}
 
 #frame{width: 100px; dispaly:block; margin: 0px auto;}
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    color: #fff;
-    background-color: teal;}
-
-.nav-pills .nav-link {
-    /*border-radius: .25rem;*/
-    border-radius: 0rem;
-
-}
 a, a.disabled:hover, a:disabled:hover {
-    /*color: #007bff;*/
     color: teal;
-    /*font-size: medium;*/
     font-weight: bolder;
     }
 .form-control::-moz-placeholder {
@@ -100,5 +76,19 @@ img.bg-img{
 p.intro{line-height: 0.5em;}
 p.intro a:link, a{color: #000;}
 a:hover{color: #000; text-decoration: underline;}
-span.meta{display:block; background: #ccc;}
-.img-thumbnail{border-radius: 0px;}
+span.meta{
+  display:block; 
+  background: #ccc; 
+  margin: 15px auto;
+  padding: 5px;
+}
+.img-thumb{
+  border-radius: 0px;
+  width: 240px;
+  margin: 5px 0px;
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+.lg-sub-html p{text-align: center;}
+.lg-thumb-outer{display: none;}

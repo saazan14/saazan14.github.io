@@ -112,11 +112,10 @@ span.meta{
   display: none;
   }
   
-  .back-to-top i {
-  padding-top: 12px;
-  color: #fff;
-  }
-  
+.back-to-top i {
+padding-top: 12px;
+color: #fff;
+}
 
 @media (max-width: 768px) {
   .back-to-top {

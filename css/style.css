@@ -92,3 +92,42 @@ span.meta{
 }
 .lg-sub-html p{text-align: center;}
 .lg-thumb-outer{display: none;}
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  background: teal;
+  color: #fff;
+  display: inline-block;
+  width: 30px;
+  height: 44px;
+  text-align: center;
+  line-height: 1;
+  font-size: 16px;
+  border-radius: 0%;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+  z-index: 11;
+  display: none;
+  }
+  
+  .back-to-top i {
+  padding-top: 12px;
+  color: #fff;
+  }
+  
+
+  .page-footer{margin: auto 15px;}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  button.btn.btn-default.btn-xs{
+    display: none;
+  }
+}
